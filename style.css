@@ -1,0 +1,36 @@
+/*
+Theme Name: Best Chem Supplies
+Theme URI: https://example.com/best-chem-supplies
+Author: Star Aircool
+Author URI: https://example.com
+Description: Custom Tailwind CSS theme with black-and-white styling and WooCommerce-ready structure.
+Version: 1.0.0
+Text Domain: best-chem-supplies
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+.screen-reader-text:focus {
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  left: 0;
+  padding: 12px 16px;
+  position: absolute;
+  top: 0;
+  z-index: 100000;
+}
